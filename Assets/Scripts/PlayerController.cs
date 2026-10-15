@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour {
     Vector2 moveInput;
 
     // Variables
-    private bool canControlPlayer = true; // Flag to control player input
+    bool canControlPlayer = true; // Flag to control player input
     float baseSpeed;
 
     void Start(){
