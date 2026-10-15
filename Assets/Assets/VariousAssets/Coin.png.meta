@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 91e22bfffc4a17e4d98b80ba2f1548a5
+guid: 5cf494423f2b9a54782c9de8035b690e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4424783941474312185
-    second: Gift Bag_0
+      213: -3338749442709606003
+    second: Coin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gift Bag_0
+      name: Coin_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 4
-        width: 214
-        height: 248
+        x: 2
+        y: 0
+        width: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7002290e2720892c0800000000000000
-      internalID: -4424783941474312185
+      spriteID: d81b24142116aa1d0800000000000000
+      internalID: -3338749442709606003
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gift Bag_0: -4424783941474312185
+      Coin_0: -3338749442709606003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
