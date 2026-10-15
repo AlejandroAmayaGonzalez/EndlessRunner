@@ -6,11 +6,11 @@ public class PlayerController : MonoBehaviour {
     
     // Torque and speed
     [SerializeField] float torqueAmount = 3f;
-    [SerializeField] float boostSpeed = 25f;
-    [SerializeField] float slowSpeed = 15f;
+    [SerializeField] float boostSpeed = 20f;
+    [SerializeField] float slowSpeed = 10f;
 
     // Jump Mechanic
-    [SerializeField] float jumpForce = 8f;
+    [SerializeField] float jumpForce = 7f;
     [SerializeField] Transform groundCheck;
     [SerializeField] float groundRadius = 0.2f;
     [SerializeField] LayerMask groundLayer;

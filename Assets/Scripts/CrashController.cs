@@ -10,8 +10,18 @@ public class CrashController : MonoBehaviour{
 
     void Start(){ playerControl = FindAnyObjectByType<PlayerController>(); }
 
+    // Ground crash
     private void OnTriggerEnter2D(Collider2D collision){
         if (collision.CompareTag("Ground")){
+            playerControl.CanControlPlayer = false;
+            deadParticles.Play();
+            Invoke(nameof(ReloadScene), reloadDelay);
+        }
+    }
+
+    // Rock crash
+    void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.CompareTag("Player")){
             playerControl.CanControlPlayer = false;
             deadParticles.Play();
             Invoke(nameof(ReloadScene), reloadDelay);
