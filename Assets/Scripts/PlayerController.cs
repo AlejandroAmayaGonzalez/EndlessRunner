@@ -32,6 +32,9 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         surfaceEffector = FindAnyObjectByType<SurfaceEffector2D>();
 
+        // Shows the previously selected character
+        transform.GetChild(0).GetChild(PlayerPrefs.GetInt("SelectedCharacter")).gameObject.SetActive(true);
+
         moveAction = InputSystem.actions.FindAction("Move");
         baseSpeed = surfaceEffector.speed;
     }
