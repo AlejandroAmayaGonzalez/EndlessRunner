@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour {
     /// </summary>
     public void PlayGame(){ SceneManager.LoadScene("LevelSelection"); }
     public void SeeCredits(){ SceneManager.LoadScene("Credits"); }
+    public void Controls(){ SceneManager.LoadScene("Controls"); }
     public void QuitPlay(){ Application.Quit(); }
 
     /// <summary>
