@@ -8,6 +8,9 @@ public class PauseManager : MonoBehaviour{
 
     void Start(){  
         menuManager = FindAnyObjectByType<MenuManager>();
+
+        Time.timeScale = 1f;
+        
         // Hide the menu
         pauseMenu.SetActive(false);
     }
