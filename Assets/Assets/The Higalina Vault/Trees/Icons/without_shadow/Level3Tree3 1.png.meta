@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 521c12f3959eb864392b023e81e7aa33
+guid: 7d3ba3ff6b6774c43ae14de9292480a4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -98,19 +98,22 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape:
-    - - {x: 9, y: -468.5}
-      - {x: -11, y: -465.5}
-      - {x: -30, y: -468.5}
-      - {x: -58, y: -488.5}
-      - {x: -54, y: -469.5}
-      - {x: -63, y: -462.5}
-      - {x: -97, y: -469.5}
-      - {x: -53, y: -445.5}
-      - {x: -12, y: -437.5}
-      - {x: 27, y: -445.5}
-      - {x: 58, y: -464.5}
-      - {x: 34, y: -462.5}
-      - {x: 25, y: -480.5}
+    - - {x: 37.5, y: -438}
+      - {x: 1.5, y: -443}
+      - {x: -6.5, y: -472}
+      - {x: -75.5, y: -449}
+      - {x: -131.5, y: -479}
+      - {x: -218.5, y: -508}
+      - {x: -213.5, y: -474}
+      - {x: -216.5, y: -447}
+      - {x: -264.5, y: -441}
+      - {x: -337.5, y: -441}
+      - {x: -275.5, y: -393}
+      - {x: -209.5, y: -378}
+      - {x: -124.5, y: -369}
+      - {x: -26.5, y: -383}
+      - {x: 36.5, y: -410}
+      - {x: 72.5, y: -445}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 1537655665
@@ -125,10 +128,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 395214
-  packageName: 'Trees - 100 Fantasy Trees [2D Sprites & Prefabs]'
-  packageVersion: 1.0
-  assetPath: Assets/The Higalina Vault/Trees/Icons/without_shadow/tree_medium_99.png
-  uploadId: 958712
